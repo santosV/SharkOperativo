@@ -1,0 +1,228 @@
+﻿<Page
+    x:Class="SharkOperativo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SharkOperativo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="gridMainGrid" Background="White">
+
+        <!-- Definicion de filas en grid main-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Botón Atrás y título de página -->
+        <Grid Grid.Row="0" Background="#FF34323F" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="0" 
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Center"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button" HorizontalAlignment="Center" Foreground="White" BorderBrush="{x:Null}" Background="{x:Null}"/>
+            <TextBlock x:Name="pageTitle" Text="Operación" Grid.Column="1" VerticalAlignment="Center" Margin="0,0,30,0" HorizontalAlignment="Left" FontSize="36" Foreground="White"/>
+        </Grid>
+        <!-- Termina Botón Atrás y título de página-->
+
+        <!-- Parte de en medio contiene grupos, catidades, productos, impresion. -->
+        <Grid Grid.Row="1">
+            <!-- Definición de columnas en parte de en medio-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" BorderBrush="#FF333333" BorderThickness="5">
+                <!-- Rejilla de grupos -->
+                <Grid x:Name="gridGrupos" Grid.Column="0" Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                </Grid>
+                <!-- Termina parte de rejilla de grupos. -->
+            </Border>
+            <!-- Rejilla de  columna 2 de en medio -->
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+                <Border Grid.Row="0" BorderBrush="#FF333333" BorderThickness="0,5,5,5">
+                    <!-- Rejilla de cantidades -->
+                    <Grid x:Name="gridCantidades" Grid.Row="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Row="0" Grid.Column="0" Content="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="24" Padding="0"  Background="#FF34323F" BorderThickness="0"/>
+                        <Button Grid.Row="0" Grid.Column="1" Content="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White"  FontFamily="Century Gothic" FontSize="24" Padding="0" Background="#FF34323F" BorderThickness="0"/>
+                        <Button Grid.Row="0" Grid.Column="2" Content="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White"  FontFamily="Century Gothic" FontSize="24" Padding="0" Background="#FF34323F" BorderThickness="0"/>
+                        <Button Grid.Row="0" Grid.Column="3" Content="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="24" Padding="0" Background="#FF34323F" BorderThickness="0"/>
+                        <Button Grid.Row="0" Grid.Column="4" Content="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White"  FontFamily="Century Gothic" FontSize="24" Padding="0" Background="#FF34323F" BorderThickness="0"/>
+                        <Button Grid.Row="0" Grid.Column="5" Content="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White"  FontFamily="Century Gothic" FontSize="24" Padding="0" Background="#FF34323F" BorderThickness="0"/>
+                        <Button Grid.Row="1" Grid.Column="0" Content="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="24" Padding="0" Background="#FF34323F" BorderThickness="0"/>
+                        <Button Grid.Row="1" Grid.Column="1" Content="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White"  FontFamily="Century Gothic" FontSize="24" Padding="0" Background="#FF34323F" BorderThickness="0"/>
+                        <Button Grid.Row="1" Grid.Column="2" Content="8" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White"  FontFamily="Century Gothic" FontSize="24" Padding="0" Background="#FF34323F" BorderThickness="0"/>
+                        <Button Grid.Row="1" Grid.Column="3" Content="9" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White"  FontFamily="Century Gothic" FontSize="24" Padding="0" Background="#FF34323F" BorderThickness="0"/>
+                        <Button Grid.Row="1" Grid.Column="4" Content="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="24" Padding="0" Background="#FF34323F" BorderThickness="0"/>
+                        <Button Grid.Row="1" Grid.Column="5" Content="X" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="24" Padding="0" Background="#FFE51837" BorderThickness="0"/>
+                    </Grid>
+                    <!-- Termina rejilla de cantidades -->
+                </Border>
+
+                <Border Grid.Row="1" BorderBrush="#FF333333" BorderThickness="0,0,5,5">
+                    <!-- Rejilla de productos -->
+                    <Grid x:Name="gridProductos" Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                    </Grid>
+                </Border>
+            </Grid>
+            <!-- Termina rejilla de productos-->
+
+
+            <!-- Rejilla de impresión y operaciones -->
+            <Grid Background="White" Grid.Row="1" Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <!-- Rejilla de impresión -->
+                <Border Grid.Row="0" BorderBrush="#FF686868" BorderThickness="0,5,5,5">
+                    <Grid Grid.Row="0" x:Name="gridImpresion">
+                        <TextBlock Text="Area de impresion" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="Black" FontSize="12"></TextBlock>
+                        <!-- Parte contruida por código-->
+                    </Grid>
+                    <!-- Termina rejilla de impresion-->
+                </Border>
+
+                <Border Grid.Row="1" BorderBrush="#FF2E2E2E" BorderThickness="0,0,5,5">
+                    <!-- Rejilla de botones de orden -->
+                    <Grid Grid.Row="1" x:Name="gridInfoBotonesOrden">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <!-- Info total -->
+                        <Grid x:Name="gridInfoTotal">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                        <!-- Termina info total-->
+
+                        <!-- Botones de impresion -->
+                        <Grid Grid.Column="1" x:Name="gridBotonesEnImpresion">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                        <!-- Termina botones de impresion-->
+                    </Grid>
+                    <!-- Termina rejilla de botones de orden-->
+                </Border>
+            </Grid>
+            <!-- Termina rejilla de impresion y operaciones-->
+
+        </Grid>
+        <!-- Termina parte de en medio -->
+
+        <!-- Parte 3 -->
+        <Grid Grid.Row="2" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Row="2" Grid.Column="0" BorderBrush="#FF383838" BorderThickness="5,0,5,5">
+                <!-- Sección cancelar-->
+                <Grid Grid.Column="0" Grid.Row="2">
+
+                </Grid>
+                <!-- Termina seccion cancelar-->
+            </Border>
+            <Border Grid.Column="1" BorderBrush="#FF5B5B5B" BorderThickness="0,0,5,5">
+                <!-- Grid de opciones -->
+                <Grid x:Name="gridOpciones" Grid.Column="1" Margin="0,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                </Grid>
+                <!-- Termina grid de opciones-->
+            </Border>
+
+            <Border Grid.Column="2" BorderBrush="#FF5D5D5D" BorderThickness="0,0,5,5">
+                <!-- Grid de pagos -->
+                <Grid Grid.Column="2" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                </Grid>
+                <!-- Termina grid de pagos-->
+            </Border>
+        </Grid>
+        <!-- Termina parte 3-->
+
+    </Grid>
+    <!-- Termina grid main-->
+</Page>
+    
+

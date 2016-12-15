@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SANTOSV</Machine>
+    <WindowsUser>Santos Vega</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ff7de592-161b-496e-9584-91595faf07a8</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>31AB39ACC146BB36AFCB4E7765C688C065643CF4FBD54A718C80A7707174B999</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>ff7de592-161b-496e-9584-91595faf07a8_1.0.0.0_neutral__xwhngenwp5c40</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>ff7de592-161b-496e-9584-91595faf07a8_xwhngenwp5c40!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>ff7de592-161b-496e-9584-91595faf07a8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Santos Vega</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-15T19:09:58.559</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.exe">
+      <PackagePath>SharkOperativo.Windows.exe</PackagePath>
+      <Modified>2016-12-15T19:29:56.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\0.png">
+      <PackagePath>Assets\0.png</PackagePath>
+      <Modified>2016-12-14T19:42:00.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\back.png">
+      <PackagePath>Assets\back.png</PackagePath>
+      <Modified>2016-12-14T19:39:02.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-27T10:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-27T10:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-27T10:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-27T10:36:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\AA.jpg">
+      <PackagePath>Assets\AA.jpg</PackagePath>
+      <Modified>2016-12-15T19:09:30.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\sandalias.jpg">
+      <PackagePath>Assets\sandalias.jpg</PackagePath>
+      <Modified>2016-12-14T18:51:31.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-12-14T17:25:41.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-12-15T19:29:55.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.xr.xml">
+      <PackagePath>SharkOperativo.Windows.xr.xml</PackagePath>
+      <Modified>2016-12-15T19:29:55.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-12-15T19:09:58.502</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

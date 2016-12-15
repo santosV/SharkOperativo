@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SANTOSV</Machine>
+    <WindowsUser>Santos Vega</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ff7de592-161b-496e-9584-91595faf07a8</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.exe">
+      <PackagePath>SharkOperativo.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\0.png">
+      <PackagePath>Assets\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\back.png">
+      <PackagePath>Assets\back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\AA.jpg">
+      <PackagePath>Assets\AA.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\sandalias.jpg">
+      <PackagePath>Assets\sandalias.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.xr.xml">
+      <PackagePath>SharkOperativo.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
