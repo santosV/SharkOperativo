@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-15T19:09:58.559</Modified>
+      <Modified>2016-12-15T19:58:15.121</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.exe">
       <PackagePath>SharkOperativo.Windows.exe</PackagePath>
-      <Modified>2016-12-15T19:29:56.236</Modified>
+      <Modified>2016-12-15T20:28:06.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\0.png">
       <PackagePath>Assets\0.png</PackagePath>
@@ -68,17 +68,21 @@
       <PackagePath>App.xbf</PackagePath>
       <Modified>2016-12-14T17:25:41.629</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\Inicio.xbf">
+      <PackagePath>Inicio.xbf</PackagePath>
+      <Modified>2016-12-15T20:28:06.301</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2016-12-15T19:29:55.979</Modified>
+      <Modified>2016-12-15T20:28:06.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.xr.xml">
       <PackagePath>SharkOperativo.Windows.xr.xml</PackagePath>
-      <Modified>2016-12-15T19:29:55.943</Modified>
+      <Modified>2016-12-15T20:28:06.197</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-12-15T19:09:58.502</Modified>
+      <Modified>2016-12-15T19:58:14.967</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

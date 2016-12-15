@@ -30,3 +30,8 @@ C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\Sh
 C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\Inicio.xbf
+C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\obj\Debug\Inicio.g.i.cs
+C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\obj\Debug\Inicio.g.cs
+C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\obj\Debug\Inicio.xaml
+C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\obj\Debug\Inicio.xbf
