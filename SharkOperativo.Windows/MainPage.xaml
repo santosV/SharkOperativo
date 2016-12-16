@@ -404,6 +404,10 @@
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Grid.Column="0" Content="Pagar c/Efectivo" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="25" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="0" Grid.Column="1" Content="Cadena" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="25" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="1" Grid.Column="0" Content="Pagar c/Tarjeta" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="25" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="1" Grid.Column="1" Content="Listo" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="25" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
                 </Grid>
                 <!-- Termina grid de pagos-->
             </Border>
