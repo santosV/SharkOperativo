@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:Name="gridMainGrid" Background="#FFD31A36">
+    <Grid x:Name="gridMainGrid" Background="#FFC41E39">
 
         <!-- Definicion de filas en grid main-->
         <Grid.RowDefinitions>
@@ -17,7 +17,7 @@
         </Grid.RowDefinitions>
 
         <!-- Botón Atrás y título de página -->
-        <Grid Grid.Row="0" Background="#FFE51837" >
+        <Grid Grid.Row="0" Background="#FFC41E39" >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="80"/>
                 <ColumnDefinition Width="*"/>
@@ -40,7 +40,7 @@
                 <ColumnDefinition Width="3*"/>
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
-            <Border Grid.Column="0" BorderBrush="#FFE51837" BorderThickness="5">
+            <Border Grid.Column="0" BorderBrush="#FFC41E39" BorderThickness="5">
                 <!-- Rejilla de grupos -->
                 <Grid x:Name="gridGrupos" Grid.Column="0" Background="#FF232323">
                     <Grid.ColumnDefinitions>
@@ -68,7 +68,7 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="3*"/>
                 </Grid.RowDefinitions>
-                <Border Grid.Row="0" BorderBrush="#FFE51837" BorderThickness="0,5,5,5">
+                <Border Grid.Row="0" BorderBrush="#FFC41E39" BorderThickness="0,5,5,5">
                     <!-- Rejilla de cantidades -->
                     <Grid x:Name="gridCantidades" Grid.Row="0">
                         <Grid.RowDefinitions>
@@ -99,7 +99,7 @@
                     <!-- Termina rejilla de cantidades -->
                 </Border>
 
-                <Border Grid.Row="1" BorderBrush="#FFE51837" BorderThickness="0,0,5,5">
+                <Border Grid.Row="1" BorderBrush="#FFC41E39" BorderThickness="0,0,5,5">
                     <!-- Rejilla de productos -->
                     <Grid x:Name="gridProductos" Grid.Row="1" Background="#FF1B1B1B">
                         <Grid.ColumnDefinitions>
@@ -129,7 +129,7 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <!-- Rejilla de impresión -->
-                <Border Grid.Row="0" BorderBrush="#FFE51837" BorderThickness="0,5,5,5">
+                <Border Grid.Row="0" BorderBrush="#FFC41E39" BorderThickness="0,5,5,5">
                     <Grid Grid.Row="0" x:Name="gridImpresion">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*"/>
@@ -143,7 +143,7 @@
                                 <TextBox TextAlignment="Center" Text="INGRESE EL NOMBRE DEL CLIENTE" Margin="0" HorizontalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"></TextBox>
                             </StackPanel>
                         </Grid>
-                        <Grid Grid.Row="1">
+                        <Grid Grid.Row="1" Margin="0,0,24,0">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="*"/>
@@ -157,8 +157,8 @@
                             <TextBlock Grid.Column="3" Text="COD" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
                             <TextBlock Grid.Column="4" VerticalAlignment="Center" Text="COST"></TextBlock>
                         </Grid>
-                        <ListView Grid.Row="2" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Stretch" SelectionMode="Multiple">
-                            <Grid Background="#FF720000" Width="444">
+                        <ListView Background="AntiqueWhite" Grid.Row="2" ScrollViewer.VerticalScrollBarVisibility="Auto" HorizontalAlignment="Stretch" SelectionMode="Multiple">
+                            <Grid Grid.Row="1" Margin="0,0,24,0">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
@@ -172,149 +172,14 @@
                                 <TextBlock Grid.Column="2" VerticalAlignment="Center" Text="PRODUCTO FULANO DE TAL"></TextBlock>
                                 <TextBlock Grid.Column="3" Text="AB23" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
                                 <TextBlock Grid.Column="4" VerticalAlignment="Center" Text="$130"></TextBlock>
-                            </Grid>
-                            <Grid Background="#FF720000" Width="444">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="9*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                </Grid.ColumnDefinitions>
-
-                                <Image Grid.Column="0" Source="Assets/AA.jpg" HorizontalAlignment="Left"></Image>
-                                <TextBlock Grid.Column="1" Text="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="2" VerticalAlignment="Center" Text="PRODUCTO FULANO DE TAL"></TextBlock>
-                                <TextBlock Grid.Column="3" Text="AB23" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="4" VerticalAlignment="Center" Text="$130"></TextBlock>
-                            </Grid>
-                            <Grid Background="#FF720000" Width="444">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="9*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                </Grid.ColumnDefinitions>
-
-                                <Image Grid.Column="0" Source="Assets/AA.jpg" HorizontalAlignment="Left"></Image>
-                                <TextBlock Grid.Column="1" Text="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="2" VerticalAlignment="Center" Text="PRODUCTO FULANO DE TAL"></TextBlock>
-                                <TextBlock Grid.Column="3" Text="AB23" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="4" VerticalAlignment="Center" Text="$130"></TextBlock>
-                            </Grid>
-                            <Grid Background="#FF720000" Width="444">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="9*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                </Grid.ColumnDefinitions>
-
-                                <Image Grid.Column="0" Source="Assets/AA.jpg" HorizontalAlignment="Left"></Image>
-                                <TextBlock Grid.Column="1" Text="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="2" VerticalAlignment="Center" Text="PRODUCTO FULANO DE TAL"></TextBlock>
-                                <TextBlock Grid.Column="3" Text="AB23" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="4" VerticalAlignment="Center" Text="$130"></TextBlock>
-                            </Grid>
-                            <Grid Background="#FF720000" Width="444">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="9*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                </Grid.ColumnDefinitions>
-
-                                <Image Grid.Column="0" Source="Assets/AA.jpg" HorizontalAlignment="Left"></Image>
-                                <TextBlock Grid.Column="1" Text="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="2" VerticalAlignment="Center" Text="PRODUCTO FULANO DE TAL"></TextBlock>
-                                <TextBlock Grid.Column="3" Text="AB23" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="4" VerticalAlignment="Center" Text="$130"></TextBlock>
-                            </Grid>
-                            <Grid Background="#FF720000" Width="444">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="9*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                </Grid.ColumnDefinitions>
-
-                                <Image Grid.Column="0" Source="Assets/AA.jpg" HorizontalAlignment="Left"></Image>
-                                <TextBlock Grid.Column="1" Text="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="2" VerticalAlignment="Center" Text="PRODUCTO FULANO DE TAL"></TextBlock>
-                                <TextBlock Grid.Column="3" Text="AB23" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="4" VerticalAlignment="Center" Text="$130"></TextBlock>
-                            </Grid>
-                            <Grid Background="#FF720000" Width="444">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="9*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                </Grid.ColumnDefinitions>
-
-                                <Image Grid.Column="0" Source="Assets/AA.jpg" HorizontalAlignment="Left"></Image>
-                                <TextBlock Grid.Column="1" Text="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="2" VerticalAlignment="Center" Text="PRODUCTO FULANO DE TAL"></TextBlock>
-                                <TextBlock Grid.Column="3" Text="AB23" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="4" VerticalAlignment="Center" Text="$130"></TextBlock>
-                            </Grid>
-                            <Grid Background="#FF720000" Width="444">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="9*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                </Grid.ColumnDefinitions>
-
-                                <Image Grid.Column="0" Source="Assets/AA.jpg" HorizontalAlignment="Left"></Image>
-                                <TextBlock Grid.Column="1" Text="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="2" VerticalAlignment="Center" Text="PRODUCTO FULANO DE TAL"></TextBlock>
-                                <TextBlock Grid.Column="3" Text="AB23" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="4" VerticalAlignment="Center" Text="$130"></TextBlock>
-                            </Grid>
-                            <Grid Background="#FF720000" Width="444">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="9*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                </Grid.ColumnDefinitions>
-
-                                <Image Grid.Column="0" Source="Assets/AA.jpg" HorizontalAlignment="Left"></Image>
-                                <TextBlock Grid.Column="1" Text="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="2" VerticalAlignment="Center" Text="PRODUCTO FULANO DE TAL"></TextBlock>
-                                <TextBlock Grid.Column="3" Text="AB23" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="4" VerticalAlignment="Center" Text="$130"></TextBlock>
-                            </Grid>
-                            <Grid VerticalAlignment="Center" HorizontalAlignment="Stretch" Background="#FF720000">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="9*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                    <ColumnDefinition Width="2*"/>
-                                </Grid.ColumnDefinitions>
-
-                                <Image Grid.Column="0" Source="Assets/AA.jpg" HorizontalAlignment="Left"></Image>
-                                <TextBlock Grid.Column="1" Text="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="2" VerticalAlignment="Center" Text="PRODUCTO FULANO DE TAL"></TextBlock>
-                                <TextBlock Grid.Column="3" Text="AB23" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
-                                <TextBlock Grid.Column="4" VerticalAlignment="Center" Text="$130"></TextBlock>
-                            </Grid>
+                             </Grid>
                         </ListView>
                         <!-- Parte contruida por código-->
                     </Grid>
                     <!-- Termina rejilla de impresion-->
                 </Border>
 
-                <Border Grid.Row="1" BorderBrush="#FFE51837" BorderThickness="0,0,5,5" Background="#FF1B1B1B">
+                <Border Grid.Row="1" BorderBrush="#FFC41E39" BorderThickness="0,0,5,5" Background="#FF1B1B1B">
                     <!-- Rejilla de botones de orden -->
                     <Grid Grid.Row="1" x:Name="gridInfoBotonesOrden">
                         <Grid.ColumnDefinitions>
@@ -355,14 +220,14 @@
                 <ColumnDefinition Width="3*"/>
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
-            <Border Grid.Row="2" Grid.Column="0" BorderBrush="#FFE51837" BorderThickness="5,0,5,5">
+            <Border Grid.Row="2" Grid.Column="0" BorderBrush="#FFC41E39" BorderThickness="5,0,5,5">
                 <!-- Sección cancelar-->
                 <Grid Grid.Column="0" Grid.Row="2" Background="#FF1B1B1B">
 
                 </Grid>
                 <!-- Termina seccion cancelar-->
             </Border>
-            <Border Grid.Column="1" BorderBrush="#FFE51837" BorderThickness="0,0,5,5">
+            <Border Grid.Column="1" BorderBrush="#FFC41E39" BorderThickness="0,0,5,5">
                 <!-- Grid de opciones -->
                 <Grid x:Name="gridOpciones" Grid.Column="1" Margin="0,0,0,0" Background="#FF1B1B1B">
                     <Grid.ColumnDefinitions>
@@ -381,7 +246,7 @@
                 <!-- Termina grid de opciones-->
             </Border>
 
-            <Border Grid.Column="2" BorderBrush="#FFE51837" BorderThickness="0,0,5,5">
+            <Border Grid.Column="2" BorderBrush="#FFC41E39" BorderThickness="0,0,5,5">
                 <!-- Grid de pagos -->
                 <Grid Grid.Column="2" Background="#FF1B1B1B" >
                     <Grid.ColumnDefinitions>

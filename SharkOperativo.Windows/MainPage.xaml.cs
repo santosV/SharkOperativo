@@ -81,7 +81,6 @@ namespace SharkOperativo
                     groupImage.Margin = new Thickness(2, 2, 2, 2);
                     groupImage.Stretch = Stretch.Fill;
 
-
                     StackPanel panel = new StackPanel();
                     panel.Background = new SolidColorBrush(Colors.Black);
                     panel.Opacity = 0.7;

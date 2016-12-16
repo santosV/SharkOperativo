@@ -26,7 +26,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.exe">
       <PackagePath>SharkOperativo.Windows.exe</PackagePath>
-      <Modified>2016-12-16T16:47:17.614</Modified>
+      <Modified>2016-12-16T17:09:44.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\0.png">
       <PackagePath>Assets\0.png</PackagePath>
@@ -86,11 +86,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2016-12-16T16:47:17.394</Modified>
+      <Modified>2016-12-16T17:09:44.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.xr.xml">
       <PackagePath>SharkOperativo.Windows.xr.xml</PackagePath>
-      <Modified>2016-12-16T16:47:17.361</Modified>
+      <Modified>2016-12-16T17:07:29.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
