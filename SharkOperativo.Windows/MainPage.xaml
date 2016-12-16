@@ -223,7 +223,7 @@
             <Border Grid.Row="2" Grid.Column="0" BorderBrush="#FFC41E39" BorderThickness="5,0,5,5">
                 <!-- Sección cancelar-->
                 <Grid Grid.Column="0" Grid.Row="2" Background="#FF1B1B1B">
-
+                    <Button Grid.Row="0" Grid.Column="1" Content="Cancelar" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="25" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
                 </Grid>
                 <!-- Termina seccion cancelar-->
             </Border>
@@ -242,6 +242,18 @@
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Grid.Column="0" Content="Modificador" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="15" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="0" Grid.Column="1" Content="Cancelar" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="15" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="0" Grid.Column="2" Content="Re-Ordenar" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="15" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="0" Grid.Column="3" Content="Dividir" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="15" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="0" Grid.Column="4" Content="Combinar" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="15" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="0" Grid.Column="5" Content="Misc." HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="15" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="1" Grid.Column="0" Content="Mitad" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="15" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="1" Grid.Column="1" Content="Detalles" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="15" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="1" Grid.Column="2" Content="Cantidad" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="15" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="1" Grid.Column="3" Content="Descuentos" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="15" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="1" Grid.Column="4" Content="Sobrecargo" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="15" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="1" Grid.Column="5" Content="Credito" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="15" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
                 </Grid>
                 <!-- Termina grid de opciones-->
             </Border>
@@ -257,6 +269,10 @@
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Grid.Column="0" Content="Pagar c/Efectivo" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="25" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="0" Grid.Column="1" Content="Cadena" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="25" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="1" Grid.Column="0" Content="Pagar c/Tarjeta" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="25" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
+                    <Button Grid.Row="1" Grid.Column="1" Content="Listo" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" FontFamily="Century Gothic" FontSize="25" Padding="0"  Background="#FF232323" BorderThickness="0" BorderBrush="#FF720000"/>
                 </Grid>
                 <!-- Termina grid de pagos-->
             </Border>

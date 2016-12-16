@@ -2,73 +2,73 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Machine>SANTOSV</Machine>
-    <WindowsUser>Santos Vega</WindowsUser>
+    <WindowsUser>adanp</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>ff7de592-161b-496e-9584-91595faf07a8</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.exe">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.exe">
       <PackagePath>SharkOperativo.Windows.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\0.png">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\Assets\0.png">
       <PackagePath>Assets\0.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\1.png">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\Assets\1.png">
       <PackagePath>Assets\1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\back.png">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\Assets\back.png">
       <PackagePath>Assets\back.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\AA.jpg">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\Assets\AA.jpg">
       <PackagePath>Assets\AA.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\elnegro.jpg">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\Assets\elnegro.jpg">
       <PackagePath>Assets\elnegro.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\sandalias.jpg">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\Assets\sandalias.jpg">
       <PackagePath>Assets\sandalias.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\tupadre.jpg">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\Assets\tupadre.jpg">
       <PackagePath>Assets\tupadre.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\Inicio.xbf">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\bin\Debug\Inicio.xbf">
       <PackagePath>Inicio.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.xr.xml">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.xr.xml">
       <PackagePath>SharkOperativo.Windows.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\adanp\Documents\Visual Studio 2013\Projects\SharkOperativo\SharkOperativo.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
