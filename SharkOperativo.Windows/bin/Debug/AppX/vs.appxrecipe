@@ -20,17 +20,21 @@
     <AppXManifest Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-15T19:58:15.121</Modified>
+      <Modified>2016-12-15T22:13:45.885</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.exe">
       <PackagePath>SharkOperativo.Windows.exe</PackagePath>
-      <Modified>2016-12-15T20:28:06.566</Modified>
+      <Modified>2016-12-16T16:47:17.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\0.png">
       <PackagePath>Assets\0.png</PackagePath>
       <Modified>2016-12-14T19:42:00.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\1.png">
+      <PackagePath>Assets\1.png</PackagePath>
+      <Modified>2016-12-15T22:07:39.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\back.png">
       <PackagePath>Assets\back.png</PackagePath>
@@ -60,9 +64,17 @@
       <PackagePath>Assets\AA.jpg</PackagePath>
       <Modified>2016-12-15T19:09:30.983</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\elnegro.jpg">
+      <PackagePath>Assets\elnegro.jpg</PackagePath>
+      <Modified>2016-12-15T22:12:11.105</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\sandalias.jpg">
       <PackagePath>Assets\sandalias.jpg</PackagePath>
       <Modified>2016-12-14T18:51:31.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\Assets\tupadre.jpg">
+      <PackagePath>Assets\tupadre.jpg</PackagePath>
+      <Modified>2016-12-15T22:13:33.031</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -74,15 +86,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2016-12-15T20:28:06.305</Modified>
+      <Modified>2016-12-16T16:47:17.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\SharkOperativo.Windows.xr.xml">
       <PackagePath>SharkOperativo.Windows.xr.xml</PackagePath>
-      <Modified>2016-12-15T20:28:06.197</Modified>
+      <Modified>2016-12-16T16:47:17.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Santos Vega\Documents\otro repositorio\SharkOperativo\SharkOperativo\SharkOperativo.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-12-15T19:58:14.967</Modified>
+      <Modified>2016-12-15T22:13:45.791</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -77,9 +77,10 @@ namespace SharkOperativo
                 {
                     Image groupImage = new Image();
                     groupImage.Name = "imageGrupo_POLLOS" + i;
-                    groupImage.Source = new BitmapImage(new Uri("ms-appx:/Assets/sandalias.jpg"));
+                    groupImage.Source = new BitmapImage(new Uri("ms-appx:/Assets/tupadre.jpg"));
                     groupImage.Margin = new Thickness(2, 2, 2, 2);
                     groupImage.Stretch = Stretch.Fill;
+
 
                     StackPanel panel = new StackPanel();
                     panel.Background = new SolidColorBrush(Colors.Black);

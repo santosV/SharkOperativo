@@ -122,13 +122,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\0.png" />
+    <Content Include="Assets\1.png" />
     <Content Include="Assets\AA.jpg" />
     <Content Include="Assets\back.png" />
+    <Content Include="Assets\elnegro.jpg" />
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\sandalias.jpg" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\tupadre.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="Inicio.xaml">
